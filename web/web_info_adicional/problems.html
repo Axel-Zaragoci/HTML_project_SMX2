@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Axel Zaragoci">
+
+    <title>Problemas</title>
+
+    <link rel="icon" href="./img/logo/logo_claro.png">
+
+    <link rel="stylesheet" href="./../styles/styles.css">
+
+    <script src="https://kit.fontawesome.com/3c8180bcf3.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+</head>
+<body id="body_problems">
+    <header class="header_wrapper">
+
+        <a href="./../index.html" id="header_logo">
+            <img src="./../img/logo/diseño_oscuro.png" alt="logo" class="logo">
+        </a>
+
+        <!-- Inicio el código de los menús desplegables, basado en un código de internet y luego editado -->
+
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+
+            <div class="links_wrapper">
+                <a href="./../index.html" class="link">INICIO</a>
+
+                <a href="./../cafeteria.html" class="link">CAFETERIA</a>
+
+                <div class="dropdown_wrapper">
+                    <button class="dropdown_button">LIBRERÍA</button>
+
+                    <div class="dropdown_content">
+                        <a href="./../web_libreria/libros.html">Libros</a>
+                        <a href="./../web_libreria/merchandising.html">Merchandising</a>
+                    </div>
+                </div>
+
+                <div class="dropdown_wrapper">
+                    <button class="dropdown_button">INFORMACIÓN ADICIONAL</button>
+
+                    <div class="dropdown_content">
+                        <a href="./contacto.html">Contacto</a>
+                        <a href="./sesion.html">Inicio de sesión</a>
+                        <a href="./registro.html">Registro</a>
+                        <a href="./about_me.html">Sobre mí</a>
+                        <a href="./problems.html">Problemas</a>
+                        <a href="./blog.html">Blog</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main id="main_problems">
+        <section>
+            <h2 class="problems_title">MENÚS DESPLEGABLES</h2>
+            <p>Para los menús desplegables de la cabecera, no tenía idea de como hacerlo. Y eso era un problema porque quería tener menús desplegables en la cabecera para que el <span>nav</span> no quedase demasiado largo. Debido a esto, empecé a buscar hasta encontrar una página que me aprendió a hacerlo. Más adelante, mientras hacía la página de formulario se me ocurrió que simplemente podría haberlo hecho con un <span>select</span></p>
+        </section>
+
+        <section>
+            <h2 class="problems_title">CARRUSEL DE IMÁGENES</h2>
+            <p>Para el carrusel de imágenes me pasó algo parecido. Yo quería tener al menos un carrusel de imágenes automático en mi sitio web, pero no tenía ni una pista de como hacerlo. Debido a eso empecé a buscar, pero solo encontraba tutoriales que usaban JavaScript, pero tras mucho buscar acabé encontrando un tutorial en youtube que lo hacía solo con HTML y CSS, por lo que lo implementé y tuve que cambiar algunos valores de anchura para que se adaptase a mi página</p>
+        </section>
+
+        <section>
+            <h2 class="problems_title">EFECTO PLACEHOLDER-LABEL</h2>
+            <p>Para las páginas de inicio de sesión y de registro quería hacer un efecto con los <span>placeholders</span> y los <span>labels</span>, tal y como ya hice en un curso en el que participé. Me costó mucho el lograr repetir el efecto y hasta tuve que revisar mis antiguos códigos para ayudarme con algunos pequeños detalles, como por ejemplo mi duda de ocultar los <span>label</span> usando <span>display: none;</span> o <span>visibility: hidden; opacity: 0;</span></p>
+        </section>
+
+        <section>
+            <h2 class="problems_title">VALIDACIÓN EN EL FORMULARIO</h2>
+            <p>A la hora de crear la validación de los formularios para las contraseñas, no lograba hacerlo funcionar. Tras una larga e intensiva búsqueda por internet, tampoco encontré nada que resolviese el problema usando solo HTML y CSS. Al final, acabé recoriendo a una IA que me enseñó mi novia para programar, <a href="www.useblackbox.io">blackbox</a>, y con esta logré crear y retocar el código para que funcionase usando exclusivamente HTML y CSS</p>
+        </section>
+    </main>
+
+    <footer class="footer_wrapper">
+
+        <div class="footer_content_wrapper">
+            <div class="social_network_wrapper">
+                <a href="https://www.instagram.com" target="_blank" class="social_network_instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="https://www.twitter.com" target="_blank" class="social_network_twitter">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </div>
+
+            <div class="logo_wrapper">
+                <a href="#header_logo">
+                    <img src="./../img/logo/diseño_oscuro.png" alt="Logo" class="logo">
+                </a>
+            </div>
+
+            <div class="contact_wrapper">
+                <div class="contact_phone_wrapper">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>
+                        <a href="tel:659495792">
+                            123456789
+                        </a>
+                    </p>
+                </div>
+                <div class="contact_ubi_wrapper">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>
+                        <a href="https://www.google.com/maps/place/Cafeter%C3%ADa+Librer%C3%ADa+Letras+y+Vinos/@39.4876371,-0.3606884,17.75z/data=!4m6!3m5!1s0xd60477ed57e4c95:0x22a16fb12bad7839!8m2!3d39.48752!4d-0.35959!16s%2Fg%2F11h35dz00_?entry=ttu" target="_blank">
+                            C/ del Músic Belando, 15, 46020 Valencia
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="extra_wrapper">
+
+            <p>Políticas de la empresa</p>
+            <p>|</p>
+            <p>Copyright</p>
+            <p>|</p>
+            <p>Cookies</p>
+
+        </div>
+    </footer>
+</body>
+</html>
